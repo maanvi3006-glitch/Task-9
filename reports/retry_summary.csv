@@ -1,0 +1,5 @@
+gateway,total_failures,recovered,not_recovered,recovery_pct,recovered_revenue,lost_revenue,avg_days_to_recovery
+paypal,281,108,173,38.43,654124.33,1010015.7,4.06
+bank_transfer,128,45,83,35.16,278744.16,416585.73,4.18
+stripe,534,185,349,34.64,1052321.05,2087797.68,4.23
+razorpay,407,129,278,31.7,796394.15,1644503.57,3.81

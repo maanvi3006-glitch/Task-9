@@ -1,0 +1,16 @@
+gateway,failure_reason,failure_count,revenue_at_risk,recovered_count,recovery_rate_pct,net_revenue_lost
+stripe,expired_card,159,917581.77,52,32.7,648441.06
+stripe,invalid_card,129,810911.38,40,31.01,580187.33
+razorpay,network_error,111,691592.31,37,33.33,474960.2
+stripe,card_declined,122,749803.02,46,37.7,467294.82
+razorpay,insufficient_funds,95,619550.7,26,27.37,446538.35
+stripe,fraud_detected,124,687494.74,47,37.9,417546.65
+razorpay,gateway_timeout,107,581729.54,34,31.78,375363.83
+razorpay,bank_error,94,568610.1,32,34.04,368226.12
+paypal,fraud_detected,74,416297.58,24,32.43,280189.32
+paypal,invalid_card,72,405331.45,27,37.5,271399.27
+paypal,card_declined,77,533488.72,37,48.05,249482.53
+paypal,network_error,58,324794.09,20,34.48,224716.39
+bank_transfer,bank_error,56,312388.89,15,26.79,201581.94
+bank_transfer,insufficient_funds,40,210043.36,17,42.5,120658.51
+bank_transfer,gateway_timeout,32,180560.42,13,40.63,102008.06

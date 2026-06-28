@@ -1,0 +1,9 @@
+check_name,status,message,metric,threshold
+validate_arpu,PASS,"ARPU=17,090.33  paying_users=1,866",17090.33,1.0
+validate_revenue,PASS,"Total revenue = 31,890,551.44 — clean.",31890551.44,> 0
+validate_cohort,PASS,"24 cohorts — all valid, 0 pre-signup anomalies.",24,no nulls / no pre-signup
+validate_failure_rate,PASS,Failure rate 18.1%  (1387/7650).,18.13,<= 40%
+detect_duplicates,WARN,150 duplicate groups (150 excess rows) — rate 1.96% within threshold.,0.0196078431372549,0.05
+detect_nulls,PASS,All 10 scanned columns within null threshold.,,null_rate <= 10%
+freshness_check,WARN,Latest payment 2024-12-31 is 543.6 days old (SLA=24h). Normal in dev — data ends 2024-12-31.,2024-12-31,within 24h of now
+orphan_check,PASS,No orphan payments — FK integrity intact.,0,0

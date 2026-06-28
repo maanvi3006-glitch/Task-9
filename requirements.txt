@@ -1,0 +1,32 @@
+# PlaceMux · Phase 2 · Task 9 — Failure Handling & Resilience
+# requirements.txt
+#
+# Pin exact versions used during development so the environment is
+# fully reproducible on Streamlit Cloud or any fresh venv.
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# Python version: 3.11+
+
+# ── Core data stack ──────────────────────────────────────────────────────────
+pandas==2.2.3
+numpy==1.26.4
+sqlalchemy==2.0.51
+
+# ── Data generation ──────────────────────────────────────────────────────────
+faker==37.0.0
+
+# ── Visualisation & dashboard ────────────────────────────────────────────────
+plotly==6.0.1
+streamlit==1.45.1
+
+# ── Streamlit transitive deps (pinned for cloud stability) ───────────────────
+altair==5.5.0
+pyarrow==19.0.1
+pydeck==0.9.1
+watchdog==6.0.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+click==8.1.8
+toml==0.10.2
